@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="org.smartregister.chw.anc.fragment.BaseAncHomeVisitFragment">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/detail_toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/pagination_bar_height"
@@ -44,7 +44,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/activity_title_size" />
         </RelativeLayout>
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         android:layout_below="@+id/detail_toolbar"
         android:layout_margin="0dp">
 
-        <android.support.v4.widget.NestedScrollView
+        <androidx.core.widget.NestedScrollView
             android:id="@+id/scroll_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
 
                 </LinearLayout>
             </RelativeLayout>
-        </android.support.v4.widget.NestedScrollView>
+        </androidx.core.widget.NestedScrollView>
 
         <LinearLayout
             android:id="@+id/linearLayoutButtons"

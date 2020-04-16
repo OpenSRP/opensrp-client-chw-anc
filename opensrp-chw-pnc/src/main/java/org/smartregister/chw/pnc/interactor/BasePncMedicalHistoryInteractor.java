@@ -1,7 +1,7 @@
 package org.smartregister.chw.pnc.interactor;
 
 import android.content.Context;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 
 import org.smartregister.chw.anc.domain.Visit;
 import org.smartregister.chw.anc.util.AppExecutors;

@@ -3,7 +3,7 @@ package org.smartregister.chw.anc.fragment;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
